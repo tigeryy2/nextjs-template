@@ -1,10 +1,20 @@
+# Next.js + Tailwind CSS + TypeScript + ESLint + Prettier Template
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+To create a new project using this template, run:
+
+```bash
+npx create-next-app --example https://github.com/tigeryy2/nextjs-template.git <YOUR_APP_NAME>
+```
 
 ## Getting Started
 
 First, run the development server:
 
 ```bash
+vercel dev  # needed for python api
+# or
 npm run dev
 # or
 yarn dev
